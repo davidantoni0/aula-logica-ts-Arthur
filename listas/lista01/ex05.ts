@@ -2,4 +2,4 @@ const numeroReal: number = Number(prompt('Digite o valor em reais para transaç�
 
 const numeroEmDolar: number = numeroReal /  4.95
 
-alert(`O valor ${numeroReal} é igual à ${numeroEmDolar} dólares.`)
+alert(`R$${numeroReal} é igual à ${numeroEmDolar.toFixed(2)} dólares.`)
