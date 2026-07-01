@@ -6,7 +6,7 @@ if(isNaN(idade4)){
 }
 
 if(idade4 > 65){
-    alert(` Entrada preferencial. idade: ${idade2}`)
+    alert(` Entrada preferencial.`)
 } else{
     let gestante : string | null = prompt("Você é gestante?")
     if(gestante == null){
@@ -15,6 +15,18 @@ if(idade4 > 65){
     }
     gestante = gestante.toLowerCase()
     if(gestante == "sim" || gestante == "s"){
-        alert(``)
+        alert(`Entrada preferencial.`)
+    } else{
+        let deficiente : string | null = prompt("Você é deficiente?")
+        if(deficiente == null){
+            alert("valor invalido.")
+            throw new Error("O valor digitado nao pode ser vazio.")
+        }
+        deficiente = deficiente.toLowerCase()
+        if(deficiente == "sim" || deficiente == "s"){
+            alert(`Entrada preferencial.`)
+        } else{
+        alert(`Entrada comum.`)
+        }
     }
 }
