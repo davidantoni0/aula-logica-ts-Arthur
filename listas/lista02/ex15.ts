@@ -9,7 +9,7 @@ if(idade4 > 65){
     alert(` Entrada preferencial.`)
 } else{
     let gestante : string | null = prompt("Você é gestante?")
-    if(gestante == null){
+    if(gestante === null || gestante.trim() === ""){
         alert("valor invalido.")
         throw new Error("O valor digitado nao pode ser vazio.")
     }
@@ -18,7 +18,7 @@ if(idade4 > 65){
         alert(`Entrada preferencial.`)
     } else{
         let deficiente : string | null = prompt("Você é deficiente?")
-        if(deficiente == null){
+        if(deficiente == null || deficiente.trim() === ""){
             alert("valor invalido.")
             throw new Error("O valor digitado nao pode ser vazio.")
         }

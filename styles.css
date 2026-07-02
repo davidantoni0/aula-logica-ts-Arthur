@@ -5,15 +5,15 @@
 body {
   font-family: system-ui, Arial, sans-serif;
   margin: 0;
-  background: #f4f4f4;
-  color: #222;
+  background: #291e64;
+  color: #ffffff;
 }
 
 .container {
   max-width: 600px;
   margin: 40px auto;
   padding: 24px;
-  background: #fff;
+  background: #2b3e74;
   border: 1px solid #ddd;
   border-radius: 8px;
 }
@@ -24,7 +24,7 @@ h1 {
 
 .subtitulo {
   margin: 0 0 20px;
-  color: #666;
+  color: #ffffff;
 }
 
 /* Botões / cards de navegação */
@@ -38,7 +38,7 @@ h1 {
 .botao {
   display: block;
   padding: 14px 16px;
-  background: #1565c0;
+  background: darkblue;
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
@@ -52,7 +52,7 @@ h1 {
 .voltar {
   display: inline-block;
   margin-top: 20px;
-  color: #1565c0;
+  color: #ffffff;
   text-decoration: none;
 }
 
